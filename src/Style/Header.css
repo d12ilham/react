@@ -1,0 +1,36 @@
+.header {
+  min-height: 90px;
+  padding: 0 80px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  left: 0;
+  justify-content: center;
+  z-index: 99;
+}
+
+.header-container {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header img {
+  width: 100px;
+}
+
+.nav-menu {
+  list-style: none;
+}
+
+.nav-menu > li > a {
+  text-decoration: none;
+  color: #ff656a;
+  font-weight: 500;
+  padding: 0 20px;
+}
